@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Search</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="navbar">
+        <div class="nb">
+            <p>Advanced Search</p>
+            <ul>
+                <li>
+                    <a class="a" href="index.html">Web</a>
+                </li>
+                <li>
+                    <a class="a" href="image.html">Image</a>
+                </li>
+                <li>
+                    <a class="a" href="advanced.html">Advanced</a>
+                </li>
+                <li> <img src="Google.png" alt=""></li>
+            </ul>
+        </div>
+    </div>
+    <div class="linegray"></div>
+    <div class="contain">
+        <form action="https://www.google.com/search" method="get">
+            <p>Find pages with...</p><br>
+            <div class="i_box">
+            <label for="allWords">all these words:</label>
+            <input type="text" id="allWords" name="q"><br><br>
+        </div>
+        <div class="i_box">
+            <label for="exactPhrase">this exact word or phrase:</label>
+            <input type="text" id="exactPhrase" name="as_epq"><br><br>
+        </div>
+        <div class="i_box">
+            <label for="anyWords">any of these words:</label>
+            <input type="text" id="anyWords" name="as_oq"><br><br>
+        </div>
+        <div class="i_box">
+            <label for="excludeWords">none of these words:</label>
+            <input type="text" id="excludeWords" name="as_eq"><br><br>
+        </div>
+        <div class="btn_2">
+            <button type="submit">Advanced Search</button>
+        </div>
+        </form>
+    </div>
+    <!-- <div class="Container">
+        <img src="Google1.png" alt=""
+    
+        <form action="https://www.google.com/search">
+            <input type="text" name="q">
+            <input type="submit" value="Google Search">
+        </form>
+    </div> -->
+</body>
+
+</html>
